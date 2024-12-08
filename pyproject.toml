@@ -6,6 +6,9 @@ authors = ["not-green <very.devious.dev@proton.me>"]
 license = "MIT"
 readme = "README.md"
 
+[tool.poetry.scripts]
+overvibe = 'overvibe:main'
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
