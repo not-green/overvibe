@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "overvibe"
+version = "0.1.0"
+description = ""
+authors = ["not-green <very.devious.dev@proton.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.13.0"
+black = "^24.10.0"
+pylint = "^3.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
