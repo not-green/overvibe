@@ -12,6 +12,8 @@ overvibe = 'overvibe:main'
 [tool.poetry.dependencies]
 python = "^3.10"
 dasbus = "^1.7"
+pycairo = "^1.27.0"
+pygobject = "^3.50.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.13.0"
