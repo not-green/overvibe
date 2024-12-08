@@ -86,6 +86,17 @@ files = [
 ]
 
 [[package]]
+name = "dasbus"
+version = "1.7"
+description = "DBus library in Python 3"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "dasbus-1.7-py3-none-any.whl", hash = "sha256:0a9433e9e72c2c865fa2d5ef824ac4ef49b540cf57f6396e515c2f314e5c14cd"},
+    {file = "dasbus-1.7.tar.gz", hash = "sha256:a8850d841adfe8ee5f7bb9f82cf449ab9b4950dc0633897071718e0d0036b6f6"},
+]
+
+[[package]]
 name = "dill"
 version = "0.3.9"
 description = "serialize all of Python"
@@ -322,4 +333,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a04e899fb066615ea544f219e8419b59e5a8475eb6b2ef8ae127b21e636b4b6d"
+content-hash = "04d7580354632bc4ad83bcf95a76cc27690704a24a908fefb2ed6f465bbe1723"
